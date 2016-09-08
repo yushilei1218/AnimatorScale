@@ -37,11 +37,7 @@ public class ScaleScrollView extends ScrollView {
                 lastY = y;
                 break;
             case MotionEvent.ACTION_MOVE:
-                int scrollY = getScrollY();
-                int bottom = getBottom();
-                int height1 = getHeight();
 
-                Log.d(TAG, "scrollY=" + scrollY + ";bottom=" + bottom + ";Height=" + height1);
                 if (getScrollY() == 0 && y - lastY > 0) {
                     //向下拉动
                     float distance = y - lastY;

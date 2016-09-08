@@ -16,8 +16,8 @@ import com.yushilei.animatorscale.RAdapter;
  * @time 2016/9/8 -11:01.
  * @Desc
  */
-public class ScaleRecyView extends RecyclerView {
-    public ScaleRecyView(Context context, AttributeSet attrs) {
+public class ScaleRecyclerView extends RecyclerView {
+    public ScaleRecyclerView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
